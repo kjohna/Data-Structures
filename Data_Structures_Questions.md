@@ -14,10 +14,14 @@ Answer the following questions for each of the data structures you implemented a
 ## Binary Search Tree
 
 1. What is the runtime complexity of `insert`?
-
+   O(n), n is height of bst if bst is perfectly unbalanced
+   O(log(n)) if bst is perfectly balanced
 2. What is the runtime complexity of `contains`?
-
+   O(n), n is height of bst if bst is perfectly unbalanced
+   O(log(n)) if bst is perfectly balanced
 3. What is the runtime complexity of `get_max`?
+   O(n), n is height of bst if bst is perfectly unbalanced with min as root. O(1) if max is root.
+   O(log(n)) if bst is perfectly balanced
 
 ## Heap
 
